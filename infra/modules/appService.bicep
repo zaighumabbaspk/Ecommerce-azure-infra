@@ -1,7 +1,7 @@
 // ── Parameters ───────────────────────────────────────
 param name string
 param location string
-param sku string = 'B2'
+param sku string = 'F1'
 param keyVaultName string
 param identityId string
 param identityClientId string

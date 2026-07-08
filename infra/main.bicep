@@ -5,11 +5,12 @@ targetScope = 'resourceGroup'
 @allowed(['dev', 'prod'])
 param env string
 
+
 @description('Azure region for all resources')
 param location string = resourceGroup().location
 
 @description('App Service SKU')
-param appServiceSku string = 'B2'
+param appServiceSku string = 'F1'
 
 // ── Variables ────────────────────────────────────────
 var prefix = 'ecommerce-${env}'
